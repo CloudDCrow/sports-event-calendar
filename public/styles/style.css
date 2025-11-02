@@ -1,0 +1,129 @@
+body {
+    min-height: 100vh;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex:1
+}
+
+/*Header*/
+.navigation-bar {
+    background-color: rgb(75, 75, 75);
+    height: 10vh;
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+    overflow: hidden;
+    font-size:3vh;
+}
+
+.navigation-bar li {
+    float: left;
+}
+
+.navigation-bar a {
+    color: rgb(186, 236, 255);
+    text-decoration: none;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+/*Home page*/
+.next-game-status-div {
+    width: 90vw;
+    margin-top: 20vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 7vh;
+    color: rgb(186, 236, 255);
+}
+
+.next-teams-div {
+    width: 90vw;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vh;
+}
+
+#VS {
+    font-size: 6vh;
+    color: rgb(186, 236, 255);
+}
+/*Calendar*/
+.calendar-table {
+    width: 90vw;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: rgb(75, 75, 75);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.calendar-head {
+    background-color: rgb(186, 236, 255);
+    color: rgb(48, 48, 48);
+}
+
+.calendar-body {
+    color: rgb(186, 236, 255);
+}
+
+/*Add Event*/
+.add-event-form {
+    width: 90vw;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(186, 236, 255);
+}
+
+.add-event-form label {
+    font-size: 3vh;
+}
+
+.add-event-form input {
+    margin-bottom: 2vh;
+    width: 55vw;
+    height: 3vh;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+}
+
+#submit-btn {
+    font-size: 2vh;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: rgb(186, 236, 255);
+    padding: 6px 28px;
+    background-color: rgb(75, 75, 75);
+    color: rgb(186, 236, 255);
+}
+
+/*Footer*/
+footer {
+    background-color: rgb(75, 75, 75);
+    color:  rgb(186, 236, 255);
+    min-height: 30px;
+    text-align: center;
+    align-content: center;
+}
