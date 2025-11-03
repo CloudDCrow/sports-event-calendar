@@ -102,11 +102,12 @@ main {
 
 .add-event-form input {
     margin-bottom: 2vh;
-    width: 55vw;
+    width: 35vw;
     height: 3vh;
     border-radius: 5px;
     border: none;
     background-color: rgb(226, 226, 226);
+    text-align: center;
 }
 
 #submit-btn {
@@ -119,6 +120,17 @@ main {
     color: rgb(186, 236, 255);
 }
 
+.custom-select select{
+    appearance: none;
+    margin-bottom: 2vh;
+    width: 35vw;
+    height: 3vh;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    color: rgb(48, 48, 48);
+}
 /*Footer*/
 footer {
     background-color: rgb(75, 75, 75);
