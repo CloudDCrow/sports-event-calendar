@@ -17,6 +17,5 @@
         </div>
     </main>
     <?php include('../layouts/footer.php'); ?>
-
 </body>
 </html>

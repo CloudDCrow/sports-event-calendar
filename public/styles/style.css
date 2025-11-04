@@ -64,6 +64,7 @@ main {
 }
 /*Calendar*/
 .calendar-table {
+    table-layout: fixed;
     width: 90vw;
     margin-top: 5vh;
     margin-left: 5vw;
@@ -78,6 +79,7 @@ main {
 .calendar-head {
     background-color: rgb(186, 236, 255);
     color: rgb(48, 48, 48);
+    height: 4vh;
 }
 
 .calendar-body {
@@ -131,6 +133,7 @@ main {
     text-align: center;
     color: rgb(48, 48, 48);
 }
+
 /*Footer*/
 footer {
     background-color: rgb(75, 75, 75);
