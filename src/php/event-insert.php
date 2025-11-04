@@ -1,6 +1,8 @@
 <?php
     require("../connection/connection.php");
 
+    //Takes the inserted data from the html form and
+    //uses mysqli_query to insert the data into the database
     if(isset($_POST['sport'], $_POST['competition'], $_POST['venue'], $_POST['first_team'], $_POST['second_team'], $_POST['event_date'], $_POST['event_time']))
     {
         $sport=$_POST['sport'];
