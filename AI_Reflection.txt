@@ -1,0 +1,19 @@
+Parts that used AI:
+
+	For this project I did not use AI for the first steps of the project.
+	Due to my lack of time and not yet being fluent in PHP,
+	I used AI during the final stages of the project to check if my PHP code
+	is written to standards.
+	
+	So my files in src/php/... were not generated, but written with the help of AI.
+
+	No code was copied or pasted into any AI model, I asked it to showcase a standard
+	way to write the PHP queries and used that template on my own code.
+	I could have used different ways to do this, for example documentations or forums,
+	but decided to ask an AI model to save time.
+
+One Improvement:
+
+	I would have liked to create a filter to only show certain parts of the calendar,
+	for example if a person only wanted to see the upcoming volleyball games,
+	so that they wouldn't have to see irrelevant information about other sports.

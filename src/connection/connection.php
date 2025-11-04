@@ -1,7 +1,7 @@
 <?php
     // Establishes connection to the database
 
-    $db_server = "localhost:3307";
+    $db_server = "localhost";
     $db_name = "event_calendar";
     $db_user = " root";
     $db_password = "";
